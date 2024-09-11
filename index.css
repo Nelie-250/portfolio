@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-color: black;
+  box-sizing: border-box;
+  color: rgb(228, 222, 214);
+  margin: 0;
+}
+nav{
+  padding: 30px;
+  box-sizing: border-box;
+  height: 90px;
+}
+nav p{
+  position: absolute;
+  translate: 50px -20px;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px#fff;
+
+}
+.list { 
+  display: flex;
+  align-content: center;
+  float: right;
+  gap:100px;
+  margin-right: 35%;
+  text-decoration: none;
+}
+
+.list li {
+  list-style-type: none;
+  font-size: 28px;}
+.list li a{
+  text-decoration: 
+  none;
+  color:#fff;
+
+}
+hr{
+  box-shadow: 3px 3px 3px 3px ;
+}
+.profile img{
+  position: absolute;
+  translate: 400px;
+  height: 250px;
+  transition: 2s linear; 
+  border-radius: 50%;
+
+}
+
+.nav-btn{
+  position: absolute;
+  translate: 72em -8px;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+.content{
+  translate: 30px 40px;
+  width: 300px;
+  border: 0.2px  solid #fff;
+  transition: 2s linear;
+  padding: 10px;
+ 
+}
+.h-btn{
+  position: absolute;
+  border-radius: 9px;
+  font-size: 16px;
+  padding: 4px;
+  width: 100px;
+  translate: -8px 60px;
+}
+.container{
+  
+  width: 600px;
+  height: 300px;
+  translate: 500px 28px;
+  box-shadow: 3px 3px 3px 5px #fff;
+}
+.about-me{
+  border: 1px solid #fff;
+  width: 900px; 
+   translate: 350px 50px; 
+  padding: 0 10px;
+  font-size: 18px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+.projects{
+  display: flex;
+  float: left;
+  gap:30px;
+  padding: 0 42px;
+  width: 90%;
+  translate: 70px 70px;
+}
+.project-1{
+  width: 500px;
+  height: 300px;
+ 
+}
+.project-2{
+  width: 500px;
+  height: 300px;
+}
+.project-3{
+  position: relative;
+  width: 500px;
+  height: 300px;
+ 
+}
+#skills{
+  translate:-900px 400px;
+  text-align: center;
+}
+.skills{
+  position: absolute;
+  width: 85%;
+  translate: 100px 450px;
+  display: flex;
+  float: left;
+  overflow-X: scroll;
+  gap: 50px;
+  border: 1px solid #1f1d1d;
+  padding: 30px;
+  box-sizing: border-box;
+  
+}
+.skills img{
+  width: 100px;
+  height: 100px;
+}
+.skills div{
+  box-sizing: border-box;
+  min-width: 300px;
+  height: 300px;
+  box-shadow: 3px 3px 3px 3px #171616;
+}
+.footer{
+  width: 500px;
+  height: 10px;
+  translate: 87em 55em;
+
+}
+.footer p{
+  position:absolute;
+}
